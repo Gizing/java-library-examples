@@ -115,3 +115,9 @@ local.properties
 .worksheet
 .vscode
 
+*.project
+.classpath
+*.log
+*.iml
+*.bak
+*test
