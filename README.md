@@ -1,16 +1,19 @@
-# Java Library Examples
 
-Java 库、框架使用示例大全，持续更新，请勿 `fork`。
 
-[![](https://img.shields.io/travis/biezhi/java-library-examples.svg)](https://travis-ci.org/biezhi/java-library-examples)
-[![](https://img.shields.io/badge/license-MIT-FF0080.svg)](https://github.com/biezhi/java-library-examples/blob/master/LICENSE)
-[![@biezhi on zhihu](https://img.shields.io/badge/zhihu-%40biezhi-red.svg)](https://www.zhihu.com/people/biezhi)
-[![](https://img.shields.io/github/followers/biezhi.svg?style=social&label=Follow%20Me)](https://github.com/biezhi)
+Java 库、框架使用示例
+
+# 结构
 
 - [`cache-example`](https://github.com/biezhi/java-library-examples/tree/master/cache-example)
     - [`ehcache-example`](https://github.com/biezhi/java-library-examples/blob/master/cache-example/ehcache-example)
     - [`guava-cache-example`](https://github.com/biezhi/java-library-examples/blob/master/cache-example/guava-cache-example)
     - [`jedis-example`](https://github.com/biezhi/java-library-examples/blob/master/cache-example/jedis-example)
+- [`common`](https://github.com/Gizing/java-library-examples/tree/master/common)
+    - 文件就地更新示例
+    - slf4j和log4j配合的日志示例
+    - 最大最小堆示例
+    - 生产者消费者模型示例
+    - 判断字符串是否含有乱码
 - [`compress-example`](https://github.com/biezhi/java-library-examples/tree/master/compress-example)
 - [`crawler-example`](https://github.com/biezhi/java-library-examples/blob/master/crawler-example)
     - [`crawler4j-example`](https://github.com/biezhi/java-library-examples/blob/master/crawler-example/crawler4j-example)
@@ -63,14 +66,12 @@ Java 库、框架使用示例大全，持续更新，请勿 `fork`。
     - [`velocity-example`](https://github.com/biezhi/java-library-examples/blob/master/template-example/velocity-example)
 - [`yaml-example`](https://github.com/biezhi/java-library-examples/tree/master/yaml-example/src/main/java/io/github/biezhi/yaml)
 
-## 项目结构
+
+
+# 环境依赖
 
 如若在本地运行，请确保你的计算机已经安装如下环境
 
 - Maven3
 - Java8
 - [lombok](https://projectlombok.org/) 插件
-
-# 开源协议
-
-[MIT](https://github.com/biezhi/java-library-examples/blob/master/LICENSE)
