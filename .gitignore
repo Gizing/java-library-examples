@@ -117,7 +117,7 @@ local.properties
 
 *.project
 .classpath
-*.log
+*log
 *.iml
 *.bak
 *test
