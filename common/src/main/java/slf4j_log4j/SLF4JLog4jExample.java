@@ -11,6 +11,7 @@ public class SLF4JLog4jExample
     public static void main(String[] args)
     {
         PropertyConfigurator.configure("config/log4j.properties"); // 指定log4j的配置文件地址
+        Thread.currentThread().setName("Main1");// 指定线程名字
         LOGGER.info("Hello World");
         LOGGER.info("some {}", 3);
     }
